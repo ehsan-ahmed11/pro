@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(333deg, whitesmoke, white, gray, white, whitesmoke);
+  background-size: 400%;
+  background-attachment: fixed;
+  animation: boddy 10s infinite;
+}
+
+@keyframes boddy {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.first {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+#me {
+  color: #66BFBF;
+  font-size: 520%;
+  margin: 6% auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  animation: contact 2s;
+}
+
+
+#programmer {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 250%;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+#pro {
+  text-decoration: underline;
+}
+
+
+#cloud1 {
+  position: absolute;
+  right: 280px;
+  top: 40px;
+  animation: cld 5s;
+}
+
+#cloud2 {
+  position: absolute;
+  left: 230px;
+  bottom: 280px;
+  animation: get 5s;
+}
+
+@keyframes cld {
+  0% {
+    margin-top: 100%;
+  }
+
+  50% {
+
+    margin-top: 0%;
+  }
+}
+
+
+.second {
+  margin: 100px 0px;
+}
+
+#hi {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 250%;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+#face {
+  width: 15%;
+}
+
+#designer {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  animation: get 4s;
+}
+
+#developer {
+  line-height: 2;
+}
+
+#skill {
+  width: 30%;
+  margin: auto;
+  font-weight: bold;
+}
+
+
+#mskl {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 250%;
+  font-weight: normal;
+}
+
+#code {
+  width: 21%;
+  float: left;
+  margin-right: 10px;
+  margin-top: 0px;
+  animation: turn 5s linear infinite;
+
+}
+
+@keyframes turn {
+  0% {
+    transform: perspective(200px) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(220px) rotateY(360deg);
+  }
+}
+
+#chilli {
+  padding-top: 70px;
+  width: 30%;
+  float: right;
+  margin-left: 0px;
+  animation: turn 5s linear infinite;
+}
+
+#hwc {
+  padding-top: 90px;
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#hwcskill {
+  line-height: 2;
+}
+
+.sec {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+hr {
+  border: 6px dotted #EAF6F6;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+#getinto {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 250%;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+#love {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 20px;
+}
+
+#lovewings {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2;
+  width: 40%;
+  margin: 40px auto 60px;
+
+}
+
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.third {
+  background-color: #66BFBF;
+  padding: 50px 0px 20px 0px;
+}
+
+#copyright {
+  color: #EAF6F6;
+  font-size: 80%;
+  padding: 10px;
+}
+
+
+.botton {
+  background: #11cdd4;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+
+}
+
+.botton:hover {
+  color: whitesmoke;
+  background: #11cdd4;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px 1px #027e36;
+  animation: contact 2s infinite;
+}
+
+@keyframes contact {
+  0% {
+    margin-bottom: -40%;
+  }
+
+  50% {
+    letter-spacing: 10px;
+    margin-bottom: -40%;
+  }
+}
+
+h2:hover {
+  animation: get 4s;
+}
+
+@keyframes get {
+  0% {
+    margin-left: -100%;
+  }
+
+  50% {
+
+    margin-left: 0%;
+  }
+}
